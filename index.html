@@ -1,14 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>THIS IS HEADING</h1>
-    <p>THIS IS A PARAGRAPH</p>
+    <head>
+        <title>Form</title>
+        <style>
+        </style>
+    </head>
+    <body>
+        <h1 align="center">Registration Form</h1>
+        <form>
+            <table align="center" border="2px">
+                <tr>
+                    <th>Name:</th>
+                    <td>
+                        <input type="text" placeholder="Name">
+                     </td>
+                </tr>
 
-</body>
+                <tr>
+                    <th>Class:</th>
+                    <td>
+                        <select>
+                            <option>1st year</option>
+                            <option>2nd year</option>
+                            <option>3rd year</option>
+                            <option>4th year</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Gender:</th>
+                    <td>
+                        <input type="radio" name="Gender">Male
+                        <input type="radio" name="Gender">Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Qualification:</th>
+                    <td>
+                        <select>
+                            <option>BTech</option>
+                            <option>MTech</option>
+                            <option>PHD</option>
+                            <option>Others</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Email:</th>
+                    <td>
+                        <input type="mail"  
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Phone number:</th>
+                    <td>
+                        <input type="number"   >
+                    </td>
+                </tr>
+                <tr>
+                    <th>Address:</th>
+                    <td>
+                        <textarea placeholder="Address" rows="4" cols="30">
+                    </textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Upload Photo:</th>
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr>
+
+                <tr>
+                    
+                    <td>
+                        <input type="submit">
+                        <input type="reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
 </html>
